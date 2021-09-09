@@ -1,11 +1,14 @@
 # Edgar Sebastian Magaña Pimentel
 **20100231**
 
+
 **Lenguajes de programación que conoce:**   
 C# y un poco de C
 
+
 **Herramientas de desarrollo que usa:**  
 Visual Studio, Visual Studio Code y he usado Pic C Compiler
+
 
 **Ya ha trabajado antes con Git/GitHub o es su primera vez?** 
 Es la primera vez que lo uso
