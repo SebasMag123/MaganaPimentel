@@ -23,4 +23,4 @@ Solo nociones basicas
 No
 
 **Trabaja usted atualmente? En el area de sistemas?**  
-No, actualmente no trabajo........
+No, actualmente no trabajo
