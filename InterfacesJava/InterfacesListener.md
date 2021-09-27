@@ -19,3 +19,11 @@
 *componentMoved* (ComponentEvent)      |
 *componentResized* (ComponentEvent)    |
 *componentShown* (ComponentEvent)      |
+
+
+**Interface**: *ContainerListener* : La interfaz de escucha para recibir eventos de contenedores
+
+**Metodo**:
+-----------------------------------|
+*ComponentAdded* (ComponentEvent)  |
+*ComponentRemoved (ComponentEvent) |
