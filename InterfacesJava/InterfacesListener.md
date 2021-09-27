@@ -3,5 +3,5 @@
 **Interface**                               | **Metodo**
 ------------------------------------------- | -------------------
 *Action listener*: La interfaz de escucha   |
-para recibir elementos de accion.           |
-
+para recibir elementos de accion.           
+                                            |
