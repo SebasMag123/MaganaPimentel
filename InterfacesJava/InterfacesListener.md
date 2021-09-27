@@ -1,18 +1,18 @@
 ## Interfaces listener y sus metodos. JAVA
 
-**Interface**: *Action listener*: La interfaz de escucha para recibir elementos de accion.
+**1- Interface**: *Action listener*: La interfaz de escucha para recibir elementos de accion.
 
 **Metodo**: *actionPerformed* (ActionEvent)
 
 
 
-**Interface**: *AdjustmentListener* : La interfaz de escucha para recibir eventos de ajuste.
+**2- Interface**: *AdjustmentListener* : La interfaz de escucha para recibir eventos de ajuste.
 
 **Metodo**: *adjustmentValueChanged* (AdjustmentValueChanged)
 
 
 
-**Interface**: *ComponentListener* : La interfaz de escucha para recibir eventos de commponentes
+**3- Interface**: *ComponentListener* : La interfaz de escucha para recibir eventos de commponentes
 
 **Metodo**          
 ---------------------------------------|
@@ -23,7 +23,7 @@
 
 
 
-**Interface**: *ContainerListener* : La interfaz de escucha para recibir eventos de contenedores
+**4- Interface**: *ContainerListener* : La interfaz de escucha para recibir eventos de contenedores
 
 **Metodo**
 ---------------------------------------|
@@ -32,7 +32,7 @@
 
 
 
-**Interface**: *FocusListener* : La interfaz de escucha para recibir eventos de teclado se centran en un componente
+**5- Interface**: *FocusListener* : La interfaz de escucha para recibir eventos de teclado se centran en un componente
 
 **Metodo**
 ---------------------------------------|
@@ -41,13 +41,13 @@
 
 
 
-**Interface**: *ItemListener* :  La interfaz de escucha para recibir eventos de elemento
+**6- Interface**: *ItemListener* :  La interfaz de escucha para recibir eventos de elemento
 
 **Metodo**: *itemStateChanged* (ItemEvent)
 
 
 
-**Interface**: *KeyListener* : La interfaz de escucha para recibir eventos de teclado (combinaciones de teclas).
+**7- Interface**: *KeyListener* : La interfaz de escucha para recibir eventos de teclado (combinaciones de teclas).
 
 **Metodo**
 ---------------------------------------|
@@ -56,7 +56,7 @@
 
 
 
-**Interface**: *MouseListener* : La interfaz de receptor para la recepción de "interesantes" eventos del ratón en un componente
+**8- Interface**: *MouseListener* : La interfaz de receptor para la recepción de "interesantes" eventos del ratón en un componente
 
 **Metodo**
 ---------------------------------------|
@@ -68,7 +68,7 @@
 
 
 
-**Interface**: *MouseMotionListener* : La interfaz de escucha para recibir eventos de ratón en movimiento en un componente
+**9- Interface**: *MouseMotionListener* : La interfaz de escucha para recibir eventos de ratón en movimiento en un componente
 
 **Metodo**
 ---------------------------------------|
@@ -77,13 +77,13 @@
 
 
 
-**Interface**: *Texto* : Oyente
+**10- Interface**: *Texto* : Oyente
 
 **Metodo** :textValueChanged (TextEvent)
 
 
 
-**Interface**: *WindowListener*: La interfaz de escucha para recibir eventos de ventana
+**11- Interface**: *WindowListener*: La interfaz de escucha para recibir eventos de ventana
 
 **Metodo**
 ---------------------------------------|
