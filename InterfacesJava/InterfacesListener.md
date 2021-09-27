@@ -1,7 +1,7 @@
 ## Interfaces listener y sus metodos. JAVA
 
-**Interface**                               | **Metodo**
-------------------------------------------- | -------------------
-*Action listener*: La interfaz de escucha   |
-para recibir elementos de accion.           |
---------------------------------------------|                                        
+**Interface**     |    **Definicion                  | **Metodo**
+------------------|--------------------------------- | -------------------
+*Action listener* |La interfaz de escucha            |*actionPerformed* (ActionEvent)
+                  |para recibir elementos de accion. | 
+ *                 |                      
