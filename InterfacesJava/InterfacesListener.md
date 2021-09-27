@@ -38,3 +38,18 @@
 ---------------------------------------|
 *focusGained* (FocusEvent)             |
 *focusLost* (FocusEvent)               | 
+
+
+
+**Interface**: *ItemListener* :  La interfaz de escucha para recibir eventos de elemento
+
+**Metodo**: *itemStateChanged* (ItemEvent)
+
+
+
+**Interface**: *KeyListener* : La interfaz de escucha para recibir eventos de teclado (combinaciones de teclas).
+
+**Metodo**:
+---------------------------------------|
+*keyPressed* (KeyEvent)                |
+*keyTyped* (KeyEvent)                  |  
