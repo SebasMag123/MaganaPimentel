@@ -49,7 +49,48 @@
 
 **Interface**: *KeyListener* : La interfaz de escucha para recibir eventos de teclado (combinaciones de teclas).
 
-**Metodo**:
+**Metodo**
 ---------------------------------------|
 *keyPressed* (KeyEvent)                |
 *keyTyped* (KeyEvent)                  |  
+
+
+
+**Interface**: *MouseListener* : La interfaz de receptor para la recepción de "interesantes" eventos del ratón en un componente
+
+**Metodo**
+---------------------------------------|
+*mouseClicked* (MouseEvent)            |
+*mouseEntered* (MouseEvent)            | 
+*mouseExited* (MouseEvent)             |
+*mousePressed* (MouseEvent)            |
+*mouseReleased* (MouseEvent)           |
+
+
+
+**Interface**: *MouseMotionListener* : La interfaz de escucha para recibir eventos de ratón en movimiento en un componente
+
+**Metodo**
+---------------------------------------|
+*mouseDragged* (MouseEvent)            |
+*mouseMoved* (MouseEvent)              | 
+
+
+
+**Interface**: *Texto* : Oyente
+
+**Metodo** :textValueChanged (TextEvent)
+
+
+
+**Interface**: *WindowListener*: La interfaz de escucha para recibir eventos de ventana
+
+**Metodo**
+---------------------------------------|
+*windowActivated* (WindowEvent)        |
+*windowClosed* (WindowEvent)           | 
+*windowClosing* (windowEvent)          |
+*windowDeactivated* (windowEvent)      |
+*windowDeinconified* (windowEvent)     |
+*windowIconified* (windowEvent)        |
+*windowOpened* (windowEvent)           |
