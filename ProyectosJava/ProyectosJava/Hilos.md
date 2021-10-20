@@ -15,9 +15,9 @@ En Java los hilos están encapsulados en la clase Thread. Para crear un hilo ten
 En ambos casos debemos definir un método run() que será el que contenga el código del hilo. Desde dentro de este método podremos llamar a cualquier otro método de cualquier objeto, pero este método run() será el método que se invoque cuando iniciemos la ejecución de un hilo. El hilo terminará su ejecución cuando termine de ejecutarse este método run().
 
     public class EjemploHilo extends Thread  
-{      
-    public void run()() 
-    {
+    {      
+        public void run()() 
+        {
         // Código del hilo      
-    }  
-}
+        }  
+    }    
