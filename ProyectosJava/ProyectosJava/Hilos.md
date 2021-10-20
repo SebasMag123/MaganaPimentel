@@ -18,6 +18,15 @@ En ambos casos debemos definir un método run() que será el que contenga el có
     {      
         public void run()() 
         {
-        *// Código del hilo*      
+        // Código del hilo*      
         }  
     }    
+
+Una vez definida la clase de nuestro hilo deberemos instanciarlo y ejecutarlo de la siguiente forma:
+
+    Thread t = new EjemploHilo();
+    t.start();
+
+Al llamar al método start del hilo, comenzará ejecutarse su método run. Crear un hilo heredando de Thread tiene el problema de que al no haber herencia múltiple en Java, si heredamos de Thread no podremos heredar de ninguna otra clase, y por lo tanto un hilo no podría heredar de ninguna otra clase.
+
+Este problema desaparece si utilizamos la interfaz Runnable para crear el hilo, ya que una clase puede implementar varios interfaces. Definiremos la clase que contenga el hilo como se muestra a continuación:
