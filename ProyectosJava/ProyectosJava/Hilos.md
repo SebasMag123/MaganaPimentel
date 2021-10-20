@@ -18,6 +18,6 @@ En ambos casos debemos definir un método run() que será el que contenga el có
     {      
         public void run()() 
         {
-        // Código del hilo      
+        *// Código del hilo*      
         }  
     }    
